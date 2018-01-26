@@ -1,0 +1,51 @@
+.Main {
+  z-index: -1;
+  color: rgba(255,255,255,0.9);
+}
+
+.Main .header-section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.Main .header-section-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: radial-gradient(circle at center,rgba(255,255,255,0.2),rgba(0,0,0,0.2));
+  z-index: -1
+}
+
+.Main .info-text {
+    margin-top: 15em;
+    padding: 7em;
+    opacity: 1;
+}
+
+.Main h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+.Main h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.Main:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  content: "";
+  opacity: 0.95;
+
+  background-size: cover;
+  background-image: url('http://d3fgbmuso50mb7.cloudfront.net/wall-small.jpg');
+  z-index: -2;
+}
