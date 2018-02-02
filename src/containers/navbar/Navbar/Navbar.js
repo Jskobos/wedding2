@@ -10,7 +10,7 @@ class Navbar extends Component {
         <div className="navbar-items-container">
           <NavItem name='about' target='/about' />
           <NavItem name='location' target='/location' />
-          <NavItem name='accomodations' target='/hotel' />
+          <NavItem name='travel' target='/travel' />
         </div>
       </div>
     );
