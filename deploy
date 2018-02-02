@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Switching to branch master" 
+git checkout master
+
+echo "Building app" 
+npm run build
+
+echo "Deploying files to server" 
+
+rsync -avP build/ jkobos@jaredandcici.com:/var/www/html/jaredandcici.com/public_html/ 
+
+echo "Deployment complete" 
