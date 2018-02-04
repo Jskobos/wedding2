@@ -49,3 +49,19 @@
   background-image: url('http://d3fgbmuso50mb7.cloudfront.net/wall-small.jpg');
   z-index: -2;
 }
+
+@media only screen and (max-width : 415px) {
+  .Main:before {
+    background-image: url('http://d3fgbmuso50mb7.cloudfront.net/wall-bare.jpg');
+  }
+  .Main .info-text {
+      margin-top: 0;
+      padding: 2em;
+  }
+  .Main h1 {
+    font-size: 3em;
+  }
+  .container, .content-center-brand {
+    width: 100%;
+  }
+}
