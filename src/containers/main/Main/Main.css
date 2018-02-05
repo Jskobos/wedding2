@@ -46,13 +46,13 @@
   opacity: 0.95;
 
   background-size: cover;
-  background-image: url('http://d3fgbmuso50mb7.cloudfront.net/wall-small.jpg');
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/wall-small.jpg');
   z-index: -2;
 }
 
 @media only screen and (max-width : 415px) {
   .Main:before {
-    background-image: url('http://d3fgbmuso50mb7.cloudfront.net/wall-bare.jpg');
+    background-image: url('https://d3fgbmuso50mb7.cloudfront.net/wall-bare.jpg');
   }
   .Main .info-text {
       margin-top: 0;
