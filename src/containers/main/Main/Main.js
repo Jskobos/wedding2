@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../../navbar/Navbar/Navbar';
 import './Main.css';
 
 
@@ -6,6 +7,7 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
+        <Navbar />
         <div className="header-section">
             <div className="header-section-image">
               <div className="container">

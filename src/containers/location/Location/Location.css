@@ -1,8 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
 .Location {
   height: 100vh;
+  font-family: Montserrat sans-serif;
+
+}
+
+.Location .text-container {
+  height: 55vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0,114,245,0.6);
+}
+
+.Location .location-intro-text {
+  width: 45vw;
+  background-color: rgba(0,0,245,0.6);
+  padding: 1em;
+}
+
+.Location .location-intro-text p {
+  padding: 1em;
+}
+
+.Location .banner {
+  height: 45vh;
+  background-color: rgba(0,0,255,0.4);
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 8em;
+  color: rgba(255,255,255,0.75);
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/lawn.jpg');
+  background-size: cover;
 }
 
 .fa-map-marker-alt {
   color: blue;
   font-size: 2em;
+}
+
+.Location a.google-link {
+  text-decoration: none;
+  color: white;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: blue;
+  background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA 51%, #9D50BB 90%);
+  border-radius: 8px;
+  max-width: 150px;
+}
+
+a:hover {
+  text-decoration: none;
 }

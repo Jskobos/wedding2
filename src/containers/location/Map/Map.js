@@ -6,6 +6,4 @@ const Map = ({ text }) =>{
   return <div><FontAwesomeIcon icon="map-marker-alt"/>{text}</div>
 }
 
-
-
 export default Map;
