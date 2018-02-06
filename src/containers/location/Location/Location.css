@@ -5,41 +5,47 @@
 .Location {
   height: 100vh;
   font-family: Montserrat sans-serif;
-
-}
-
-.Location .text-container {
-  height: 55vh;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgba(0,114,245,0.6);
+  justify-content: center;
+}
+
+.Location::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/passageway.jpg');
+  background-size: cover;
+  filter: blur(4px);
+  z-index: -10;
+}
+
+.Location .location-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.95);
+  background-clip: padding-box;
+  border: 10px solid hsla(0,0%,100%,.4);
+  padding: 2em;
+}
+
+.Location .location-container * {
+  padding: 1em;
 }
 
 .Location .location-intro-text {
   width: 45vw;
-  background-color: rgba(0,0,245,0.6);
   padding: 1em;
 }
 
 .Location .location-intro-text p {
   padding: 1em;
-}
-
-.Location .banner {
-  height: 45vh;
-  background-color: rgba(0,0,255,0.4);
-  margin: 0;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  font-family: 'Dancing Script', sans-serif;
-  font-size: 8em;
-  color: rgba(255,255,255,0.75);
-  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/lawn.jpg');
-  background-size: cover;
 }
 
 .fa-map-marker-alt {
