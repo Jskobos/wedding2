@@ -3,8 +3,10 @@ import GoogleMapReact from 'google-map-react';
 import Map from '../Map/Map';
 
 const styles = {
-  'width': '50vw',
-  'height': '50vh'
+  'width': '44vw',
+  'height': '44vh',
+  'border': 'solid 1em white',
+  'boxShadow': '4px 4px 10px 3px #ccc'
 }
 
 class MapBox extends Component {
