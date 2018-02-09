@@ -3,9 +3,8 @@
 
 
 .Location {
-  height: 100vh;
   font-family: Montserrat sans-serif;
-
+  height: 100vh;
 }
 
 .Location .divider {
@@ -92,7 +91,7 @@
    }
 .button:hover {
    border-top-color: #28597a;
-   background: #28597a;
+   background: #1338BE;
    color: #ccc;
    }
 .button:active {
@@ -102,4 +101,42 @@
 
 a:hover {
   text-decoration: none;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .map-container {
+    display: none;
+  }
+
+  .Location .location-intro-text {
+    margin: 1em;
+    width: 80%;
+    height: 50vh;
+  }
+  .Location .text-container {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .Location .banner {
+    height: 25vh;
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-device-width: 500px) {
+  .Location .location-intro-text {
+    margin: 2em;
+  }
+  .Location .text-container {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Location .banner {
+    height: 25vh;
+    font-size: 3em;
+    align-items: flex-start;
+  }
 }
