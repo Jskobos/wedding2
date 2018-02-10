@@ -109,19 +109,19 @@ a:hover {
   }
 
   .Location .location-intro-text {
-    margin: 1em;
     width: 80%;
     height: 50vh;
+    margin-top: 3em;
   }
   .Location .text-container {
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100%;
   }
   .Location .banner {
     height: 25vh;
-    font-size: 5em;
+    font-size: 4em;
   }
 }
 

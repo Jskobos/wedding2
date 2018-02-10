@@ -16,7 +16,11 @@
   justify-content: flex-end;
 }
 
-@media only screen and (max-width : 415px) {
+.Navbar .navbar-items-container.pull-right {
+  justify-content: flex-end !important;
+}
+
+@media only screen and (max-width : 800px) {
   .Navbar .navbar-items-container {
     justify-content: center;
   }

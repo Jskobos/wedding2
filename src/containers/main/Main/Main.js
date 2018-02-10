@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from '../../navbar/Navbar/Navbar';
-import NavItem from '../../navbar/NavItem/NavItem';
 import './Main.css';
 
 const links = [{

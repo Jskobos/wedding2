@@ -12,7 +12,7 @@ class Navbar extends Component {
 
     return (
       <div className="Navbar">
-        <div className="navbar-items-container">
+        <div className={"navbar-items-container " + this.props.pull}>
           {links}
         </div>
       </div>

@@ -9,7 +9,7 @@ class Location extends Component {
   render() {
     return (
       <div className="Location">
-        <Navbar links={links} />
+        <Navbar links={links} pull="pull-right" />
         <div className="banner">Location</div>
         <div className="text-container">
           <div className="location-intro-text portrait">
