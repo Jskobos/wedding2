@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import MapBox from '../MapBox/MapBox.js';
+import Navbar from '../../navbar/Navbar/Navbar.js';
 import './Location.css';
+
+const links = [{link: 'home', target: 'home'}];
 
 class Location extends Component {
   render() {
     return (
       <div className="Location">
+        <Navbar links={links} />
         <div className="banner">Location</div>
         <div className="text-container">
           <div className="location-intro-text portrait">

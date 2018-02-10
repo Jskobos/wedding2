@@ -127,7 +127,7 @@ a:hover {
 
 @media only screen and (max-device-width: 500px) {
   .Location .location-intro-text {
-    margin: 2em;
+    margin: 0.5em;
   }
   .Location .text-container {
     flex-flow: column nowrap;

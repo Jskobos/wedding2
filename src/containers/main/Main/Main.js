@@ -1,13 +1,26 @@
 import React, { Component } from 'react';
 import Navbar from '../../navbar/Navbar/Navbar';
+import NavItem from '../../navbar/NavItem/NavItem';
 import './Main.css';
 
+const links = [{
+                link: 'about',
+                target: 'about'
+               },
+               {
+                 link: 'where',
+                 target: 'location'
+               },
+               {
+                 link: 'travel',
+                 target: 'travel'
+               }]
 
 class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <Navbar />
+        <Navbar links={links}/>
         <div className="header-section">
             <div className="header-section-image">
               <div className="container">
