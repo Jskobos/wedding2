@@ -1,0 +1,9 @@
+.gallery {
+  background-color: black;
+}
+
+.image-element img {
+  max-width: 500px;
+  height: auto;
+  margin: 5px;
+}
