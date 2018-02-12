@@ -11,7 +11,7 @@ const links = [{
                  target: 'location'
                },
                {
-                 link: 'travel',
+                 link: 'stay',
                  target: 'travel'
                }]
 

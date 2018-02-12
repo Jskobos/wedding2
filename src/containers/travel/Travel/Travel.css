@@ -1,0 +1,17 @@
+.Travel h1 {
+  font-size: 5em;
+  color: rgba(255,255,255,0.8);
+  padding-top: 1em;
+}
+
+.Travel:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/dali-town-med.jpg');
+  background-size: cover;
+  z-index: -1;
+}
