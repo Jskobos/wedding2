@@ -39,20 +39,20 @@ const links =
 
 const hotels = [
   {
-    name: "Crown Plaza Wilmington North",
-    url: "http://www.cpwilmingtonnorth.com/",
-    address: "630 Naamans Road Claymont, Delaware 19703",
-    photo: "crown.jpg",
-    description: "Approximately ten minutes from the Carriage House, directly off of I-95, \
-      and across the street from one of Delaware's largest liquor stores."
-  },
-  {
     name: "Doubletree Hotel",
     url: "http://doubletree3.hilton.com/en/hotels/delaware/doubletree-by-hilton-hotel-wilmington-ILGCPDT/index.html",
     address: "4727 Concord Pike, Wilmington, Delaware, 19803, USA",
     photo: "doubletree.jpg",
     description: "Approximately fifteen minutes from the Carriage house, close to several restaurants, the Concord\
       mall, and Jared's dad."
+  },
+  {
+    name: "Crown Plaza Wilmington North",
+    url: "http://www.cpwilmingtonnorth.com/",
+    address: "630 Naamans Road Claymont, Delaware 19703",
+    photo: "crown.jpg",
+    description: "Approximately ten minutes from the Carriage House, directly off of I-95, \
+      and across the street from one of Delaware's largest liquor stores."
   },
   {
     name: "Warwick at Rittenhouse",
