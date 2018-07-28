@@ -12,7 +12,7 @@ class Travel extends Component {
     return(
       <div className="Travel">
         <Navbar links={links} pull='pull-right' />
-        <h1>Coming Soon</h1>
+        
       </div>
     )
   }
