@@ -2,18 +2,23 @@ import React, { Component } from 'react';
 import Navbar from '../../navbar/Navbar/Navbar';
 import './Main.css';
 
-const links = [{
-                link: 'about',
-                target: 'about'
-               },
-               {
-                 link: 'where',
-                 target: 'location'
-               },
-               {
-                 link: 'stay',
-                 target: 'travel'
-               }]
+const links = [
+  {
+    link: 'about',
+    target: 'about'
+  },
+  {
+    link: 'where',
+    target: 'location'
+  },
+  {
+    link: 'stay',
+    target: 'travel'
+  },
+  {
+    link: 'registry',
+    target: 'registry'
+  }]
 
 class Main extends Component {
   render() {

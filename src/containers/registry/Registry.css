@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400');
+
+.Registry {
+  display: flex;
+  font-family: Monserrat sans-serif;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.Registry h1 {
+  font-size: 5em;
+  color: rgba(255,255,255,0.8);
+  padding-top: 0;
+}
+
+.Registry:before {
+  content: '';
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/hongbao1.jpg');
+  background-size: cover;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.registry-info-text {
+  margin-left: 30em;
+  width: 40vw;
+  height: 37vh;
+  padding: 1em;
+  background-color: white;
+  font-size: 1.4em;
+  opacity: 0.6;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/ricepaper_v3.png');
+}
+
+.portrait {
+  border: solid 1em white;
+  box-shadow: 1px 1px 3px 1px rgb(107, 99, 99) !important;
+  position: relative;
+}
+
+.portrait:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 3px solid #ca0707;
+  opacity: 0.8;
+}
+
+.linkBox {
+  display: flex;
+  flex-flow: row nowrap;
+}
