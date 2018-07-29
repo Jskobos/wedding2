@@ -19,14 +19,27 @@ const styles = {
     width: '100%',
     overflow: 'scroll',
   },
+  cardBox: {
+    display: 'flex',
+    flexFlow: 'row wrap',
+  },
   card: {
-    maxWidth: 600,
+    maxWidth: 500,
     fontFamily: 'Montserrat sans-serif',
     margin: '1em',
     maxHeight: 600,
+    display: 'flex',
+    flexFlow: 'column nowrap',
+    justifyContent: 'space-between',
+  },
+  cardFooter: {
+    height: 50,
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
   },
   media: {
-    height: 400,
+    height: 300,
     // paddingTop: '56.25%', // 16:9
   },
 };
@@ -43,6 +56,7 @@ const hotels = [
     url: "http://doubletree3.hilton.com/en/hotels/delaware/doubletree-by-hilton-hotel-wilmington-ILGCPDT/index.html",
     address: "4727 Concord Pike, Wilmington, Delaware, 19803, USA",
     photo: "doubletree.jpg",
+    map: "https://goo.gl/maps/GERuFUyDcCL2",
     description: "Approximately fifteen minutes from the Carriage house, close to several restaurants, the Concord\
       mall, and Jared's dad."
   },
@@ -51,18 +65,18 @@ const hotels = [
     url: "http://www.cpwilmingtonnorth.com/",
     address: "630 Naamans Road Claymont, Delaware 19703",
     photo: "crown.jpg",
+    map: "https://goo.gl/maps/Pv3rFTHkBst",
     description: "Approximately ten minutes from the Carriage House, directly off of I-95, \
       and across the street from one of Delaware's largest liquor stores."
   },
   {
-    name: "Warwick at Rittenhouse",
-    url: "www.warwickrittenhouse.com",
-    address: "",
-    photo: "warwick.jpg",
-    description: "There aren't any hotels in Fishtown/Northern Liberties where Cici and I live.\
-    If you'd like to stay in Philadelphia, the Rittenhouse Square area is a good place to look. We will\
-    arrange a van/shuttle to take any guests staying in the city to and from Wilmington on Sunday \
-    for the wedding. "
+    name: "Doubletree Center Ceity",
+    url: "http://doubletree3.hilton.com/en/hotels/pennsylvania/doubletree-by-hilton-hotel-philadelphia-center-city-PHLBLDT/index.html",
+    address: "237 South Broad Street, Philadelphia, Pennsylvania, 19107-5686, USA",
+    photo: "dtcc.jpg",
+    map: "https://goo.gl/maps/TphArTYspY22",
+    description: "There are no hotels in Fishtown/Northern Liberties where we live.\
+    If you'd like to stay in Philadelphia, the Center City/Rittenhouse Square areas are good places to look."
   }
 ];
 
@@ -84,13 +98,20 @@ class Travel extends Component {
               {hotel.description}
             </Typography>
         </CardContent>
-        <CardActions>
+        <CardActions className={classes.cardFooter}>
           <Button 
             size="small"
             color="primary"
             onClick={() => window.location.href = hotel.url}
           >
-            Reserve
+            More Info
+          </Button>
+          <Button
+            size="small"
+            color="primary"
+            onClick={() => window.location.href = hotel.map}
+          >
+            Map
           </Button>
         </CardActions>
       </Card>
@@ -105,7 +126,9 @@ class Travel extends Component {
         <Navbar links={links} pull='pull-right' />
         <section className={classes.root}>
           <h1>Hotels</h1>
-          {cards}
+          <div className={classes.cardBox}>
+            {cards}
+          </div>
         </section>
       </div>
     )

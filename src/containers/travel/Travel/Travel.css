@@ -3,7 +3,7 @@
 .Travel h1 {
   font-size: 5em;
   color: rgba(255,255,255,0.8);
-  padding-top: 1em;
+  padding-top: 0;
 }
 
 .Travel:before {
@@ -13,7 +13,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/dali-town-mid.jpg');
+  background-image: url('https://d3fgbmuso50mb7.cloudfront.net/wall2.jpg');
   background-size: cover;
   filter: blur(4px);
   z-index: -1;
