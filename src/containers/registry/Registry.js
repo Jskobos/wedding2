@@ -16,7 +16,7 @@ const text = {
   body: "Thanks so much for being part of our wedding! We have a small home and move frequently,\
     and so already have more kitchenware and \
     furniture than we need. We would, however, love to be able to visit family and friends in Asia \
-    for our honeymoon. If you would like to give us a gift, please consider a hongbao. \
+    for our honeymoon. If you would like to give us a gift, please consider a hongbao to help support our trip. \
     If you would prefer to give online, please use the link below.",
   linkText: "Tendr",
   help: "What's a Hongbao?",
