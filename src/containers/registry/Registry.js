@@ -14,12 +14,13 @@ const links =
 
 const text = {
   greeting: "",
-  body: "Since we have a small house and move frequently, we already have more kitchenware and \
-    furniture than we need. We would, however, like to be able to visit family and friends in Asia \
+  body: "Thanks so much for being part of our wedding! We have a small home and move frequently,\
+    and so already have more kitchenware and \
+    furniture than we need. We would, however, love to be able to visit family and friends in Asia \
     for our honeymoon. If you would like to give us a gift, please consider a hongbao. \
     If you would prefer to give online, please use the link below.",
   linkText: "Tendr",
-  help: "Hongbao?",
+  help: "What's a Hongbao?",
 }
 
 class Registry extends Component {
@@ -30,11 +31,11 @@ class Registry extends Component {
         <section className={"registry-info-text portrait"}>
           <p>{text.body}</p>
           <div className="linkBox">
-            <Button href="#">
-              {text.linkText}
-            </Button>
-            <Button href="#">
+            <Button href="https://en.wikipedia.org/wiki/Red_envelope">
               {text.help}
+            </Button>
+            <Button href="https://tendr.com/ciciandjaredwedding">
+              {text.linkText}
             </Button>
           </div>
         </section>
