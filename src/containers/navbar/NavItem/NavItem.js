@@ -6,7 +6,7 @@ import './NavItem.css';
 class NavItem extends Component {
   render() {
     return (
-      <div className="NavItem">
+      <div className="NavItem" onClick={this.props.onClick} >
         <Link to={this.props.target}>
           <i></i>
           <span>{this.props.name}</span>
