@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from '../navbar/Navbar/Navbar';
 
 import Button from '@material-ui/core/Button';
-import CardActions from '@material-ui/core/CardActions';
 
 import './Registry.css';
 

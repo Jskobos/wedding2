@@ -70,10 +70,10 @@ const hotels = [
       and across the street from one of Delaware's largest liquor stores."
   },
   {
-    name: "Doubletree Center Ceity",
+    name: "Doubletree Center City",
     url: "http://doubletree3.hilton.com/en/hotels/pennsylvania/doubletree-by-hilton-hotel-philadelphia-center-city-PHLBLDT/index.html",
     address: "237 South Broad Street, Philadelphia, Pennsylvania, 19107-5686, USA",
-    photo: "dtcc.jpg",
+    photo: "center_city.jpg",
     map: "https://goo.gl/maps/TphArTYspY22",
     description: "There are no hotels in Fishtown/Northern Liberties where we live.\
     If you'd like to stay in Philadelphia, the Center City/Rittenhouse Square areas are good places to look."

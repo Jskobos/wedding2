@@ -6,9 +6,9 @@ import './Navbar.css';
 class Navbar extends Component {
   render() {
     const links = []
-    for (let link of this.props.links) {
-      links.push(<NavItem name={link.link} target={link.target} />)
-    }
+    this.props.links.map((link,idx) => {
+      links.push(<NavItem key={idx} name={link.link} target={link.target} />)
+    });
 
     return (
       <div className="Navbar">
