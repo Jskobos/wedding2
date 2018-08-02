@@ -40,7 +40,6 @@ const styles = {
   },
   media: {
     height: 300,
-    // paddingTop: '56.25%', // 16:9
   },
 };
 
@@ -57,7 +56,7 @@ const hotels = [
     address: "4727 Concord Pike, Wilmington, Delaware, 19803, USA",
     photo: "doubletree.jpg",
     map: "https://goo.gl/maps/GERuFUyDcCL2",
-    description: "Approximately fifteen minutes from the Carriage house, close to several restaurants, the Concord\
+    description: "Approximately fifteen minutes from the Carriage house. Close to several restaurants, the Concord\
       mall, and Jared's dad."
   },
   {
@@ -66,8 +65,8 @@ const hotels = [
     address: "630 Naamans Road Claymont, Delaware 19703",
     photo: "crown.jpg",
     map: "https://goo.gl/maps/Pv3rFTHkBst",
-    description: "Approximately ten minutes from the Carriage House, directly off of I-95, \
-      and across the street from one of Delaware's largest liquor stores."
+    description: "Approximately ten minutes from the Carriage House, directly off I-95, \
+      and across the street from a Wawa and one of Delaware's largest liquor stores."
   },
   {
     name: "Doubletree Center City",
