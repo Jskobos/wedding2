@@ -17,7 +17,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
-    overflow: 'scroll',
+    height: '100vh',
   },
   cardBox: {
     display: 'flex',
